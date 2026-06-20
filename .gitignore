@@ -1,0 +1,25 @@
+# Secrets — never commit credentials
+secrets.h
+*.env
+.env
+firebase-adminsdk-*.json
+google-services.json
+
+# Arduino / PlatformIO
+.pio/
+.vscode/
+*.hex
+*.bin
+
+# Node (dashboard/functions)
+node_modules/
+dashboard/firebase/functions/node_modules/
+npm-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+.idea/
