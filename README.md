@@ -17,7 +17,7 @@ Chennai floods almost every monsoon, and it's rarely because of the rain alone. 
 This project puts a sensor node inside the manhole itself. It watches water level and flow continuously, tells a real blockage apart from ordinary heavy rain, and texts a response team the moment something needs attention — GPS pin included, so nobody has to go check it in person first.
 
 <p align="center">
-  <img src="Picture1.png" alt="Sensor node deployed inside a real manhole, showing the ESP32 enclosure and ultrasonic sensor mounted above the drain" width="100%">
+  <img src="Picture1.jpg" alt="Sensor node deployed inside a real manhole, showing the ESP32 enclosure and ultrasonic sensor mounted above the drain" width="100%">
   <br><sub>The sensor node mounted inside an actual manhole during field testing</sub>
 </p>
 
@@ -34,7 +34,7 @@ If the gas sensor picks up dangerous methane or H₂S levels at the same time, t
 ## System architecture
 
 <p align="center">
-  <img src=""D:\Picture4.jpg"" alt="System architecture diagram showing sensors feeding the ESP32, which routes data through MQTT to a Mosquitto broker, Firebase, and Twilio, ending in a dashboard and SMS alert" width="100%">
+  <img src="Picture4.jpg""alt="System architecture diagram showing sensors feeding the ESP32, which routes data through MQTT to a Mosquitto broker, Firebase, and Twilio, ending in a dashboard and SMS alert" width="100%">
 </p>
 
 <table>
