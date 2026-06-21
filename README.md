@@ -34,7 +34,7 @@ If the gas sensor picks up dangerous methane or H₂S levels at the same time, t
 ## System architecture
 
 <p align="center">
-  <img src="docs/images/system-architecture.png" alt="System architecture diagram showing sensors feeding the ESP32, which routes data through MQTT to a Mosquitto broker, Firebase, and Twilio, ending in a dashboard and SMS alert" width="100%">
+  <img src=""D:\Picture3.jpg"" alt="System architecture diagram showing sensors feeding the ESP32, which routes data through MQTT to a Mosquitto broker, Firebase, and Twilio, ending in a dashboard and SMS alert" width="100%">
 </p>
 
 <table>
@@ -74,7 +74,7 @@ ESP32 runs the dual-parameter detection algorithm (level + flow correlation) loc
 ## Enclosure design
 
 <p align="center">
-  <img src="docs/images/enclosure-3d-render.png" alt="3D render of the sealed sensor enclosure showing the ESP32 board, wiring, and ultrasonic sensor mount" width="70%">
+  <img src=""C:\Users\akhav\OneDrive\Pictures\Picture1.jpg"" alt="3D render of the sealed sensor enclosure showing the ESP32 board, wiring, and ultrasonic sensor mount" width="70%">
   <br><sub>3D model of the IP68 enclosure — internal layout of the ESP32 board and sensor connections</sub>
 </p>
 
