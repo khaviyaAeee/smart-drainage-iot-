@@ -87,7 +87,6 @@ Electronics don't usually last long in a sewer. Submersion, corrosive gas, and z
 | **Battery life** | 6–9 months per charge, from running the ESP32 in deep sleep between readings |
 | **Cost per unit** | ~₹3,500, sensors and enclosure included |
 
-Full bill of materials: [`hardware/bom/bill-of-materials.md`](hardware/bom/bill-of-materials.md)
 
 ---
 
@@ -120,7 +119,7 @@ smart-drainage-iot/
 
 ## Where things stand right now
 
-The system design, sensor selection, architecture, and enclosure spec are complete — that's what's documented in this repo. The firmware in [`firmware/esp32_main/`](firmware/esp32_main/) is scaffolded with the full program structure and clearly marked TODOs, but the sensor drivers, MQTT integration, and dashboard still need to be built out.
+The system design, sensor selection, architecture, and enclosure spec are complete — that's what's documented in this repo. The firmware  is scaffolded with the full program structure and clearly marked TODOs, but the sensor drivers, MQTT integration, and dashboard still need to be built out.
 
 - [x] Problem research and literature review
 - [x] System architecture
@@ -136,7 +135,7 @@ The system design, sensor selection, architecture, and enclosure spec are comple
 
 ## Research this was based on
 
-A few papers shaped specific design decisions — see [`docs/research/references.md`](docs/research/references.md) for full citations. The dual-sensor logic in particular came out of reading how other IoT flood-management systems handled the false-alarm problem during heavy rainfall.
+A few papers shaped specific design decisions was researched for full citations. The dual-sensor logic in particular came out of reading how other IoT flood-management systems handled the false-alarm problem during heavy rainfall.
 
 ---
 
